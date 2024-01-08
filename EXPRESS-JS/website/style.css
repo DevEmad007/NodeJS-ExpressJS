@@ -1,0 +1,36 @@
+h1{
+    color:green;
+    text-align: center;
+}
+
+.container {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:36px;
+}
+
+.result {
+    font-size: 22px;
+    font-weight:800;
+    color:rgb(53, 53, 53);
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    color:rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+#increase {
+    background-color: rgb(116, 240, 72);
+}
+
+#decrease {
+    background-color: rgb(216, 53, 53);
+}
