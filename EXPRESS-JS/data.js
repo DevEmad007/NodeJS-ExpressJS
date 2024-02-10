@@ -81,4 +81,14 @@ const products = [
     }
 ];
 
-module.exports = { products };
+const people = [
+    {
+        name: 'GG',
+        age: 25,
+    },
+    {
+        name: 'GUGU',
+        age: 23,
+    }
+];
+module.exports = { products,people };
